@@ -17,3 +17,12 @@ msgVerify() {
         exit
     fi
 }
+
+statusCheck() {
+    git status --porcelain
+
+    if [ -n $? ]; then
+        echo "存在未提交的文件 退出脚本"
+        exit
+    fi
+}

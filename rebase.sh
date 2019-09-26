@@ -5,6 +5,8 @@ branch=$1
 
 branchVerify $branch
 
+statusCheck 
+
 curBranch= git rev-parse --abbrev-ref HEAD
 echo "当前分支为 ${curBranch}"
 
