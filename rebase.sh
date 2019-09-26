@@ -7,7 +7,7 @@ branchVerify $branch
 
 statusCheck 
 
-curBranch= git rev-parse --abbrev-ref HEAD
+curBranch=$(git rev-parse --abbrev-ref HEAD)
 echo "当前分支为 ${curBranch}"
 
 echo "切换至分支 ${branch}"
