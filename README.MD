@@ -24,6 +24,12 @@
    commit.sh '注释'
    ```
 
+5. push 切换到指定分支 rebase 切换前的分支并推送远端
+  
+   ```shell
+   push.sh branch
+   ```
+   
    
 
 #### macOS 修改path环境变量
