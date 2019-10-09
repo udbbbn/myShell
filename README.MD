@@ -30,6 +30,12 @@
    push.sh branch
    ```
    
+6. config 设置 git config 全局用户名 邮箱
+
+   ```shell
+   config userName userEmail
+   ```
+
    
 
 #### macOS 修改path环境变量
