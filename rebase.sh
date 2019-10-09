@@ -14,7 +14,7 @@ echo "切换至分支 ${branch}"
 git checkout $branch
 
 echo "正在拉取远端分支 ${branch}"
-git pull origin $branch
+git pull origin $branch --rebase
 
 echo "切换至分支 ${curBranch}"
 git checkout $curBranch
